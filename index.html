@@ -26,7 +26,7 @@
           <label for="number" id="number-label">
               <h3>Age(optional)</h3>
           </label>
-          <input type="number" name="" id="number" placeholder="Age">
+          <input type="number" name="" id="number" placeholder="Age" min="3" max="30">
 
           <label for="dropdown">
             <h3>Which option best describes your current role?</h3>
@@ -41,6 +41,47 @@
             <option value="">Prefer Not To Say</option>
             <option value="">Other</option>
           </select>
+
+          <br><br>
+          <label for="">
+          
+          <h3>Would you recommend freeCodeCamp to a friend?</h3>
+          </label>
+          <div id="checkbox1">
+              <input type="radio" name="1" id=""> Definitely <br>
+              <input type="radio" name="1" id=""> Maybe <br>
+              <input type="radio" name="1" id=""> Not sure <br>
+          </div>
+
+          <label for=""><h3>What is your favorite feature of freeCodeCamp?</h3></label>
+          <select name="dropdown" id="dropdown" >
+              <option value="none" selected disabled hidden>
+                  Select an Option
+              </option>
+              <option value="">Challenges</option>
+              <option value="">Projects</option>
+              <option value="">Community</option>
+              <option value="">Open Source</option>
+          </select>
+          <br>
+          <br>
+          <div id="checkbox2">
+              <input type="checkbox" name="checkbox" id=""> Front-end Projects
+          <input type="checkbox" name="checkbox" id=""> Back-end Projects
+          <input type="checkbox" name="checkbox" id=""> Data Visualization
+          <input type="checkbox" name="checkbox" id=""> Challenges
+          <input type="checkbox" name="checkbox" id=""> Open Source Community
+          <input type="checkbox" name="checkbox" id=""> Gitter help rooms
+          <input type="checkbox" name="checkbox" id=""> Videos
+          <input type="checkbox" name="checkbox" id=""> City Meetups
+          <input type="checkbox" name="checkbox" id=""> wiki
+          <input type="checkbox" name="checkbox" id=""> Forum
+          <input type="checkbox" name="checkbox" id=""> Additional Courses
+          </div>
+          
+
+          <label for="textarea"><h3>Any comments or suggestions?</h3></label>
+          <textarea id="textarea" placeholder="Enter your comment here..."></textarea>
           
         </form>
 
